@@ -1,0 +1,61 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>选题雷达</title><style>
+:root{--bg:#f6f8fa;--card:#fff;--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--accent:#0f766e}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111a2b;--ink:#e5e7eb;--sub:#9ca3af;--line:#1f2a44}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:640px;margin:0 auto;padding:16px 14px 48px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);
+ padding:12px 14px;margin:-16px -14px 18px;z-index:9}
+header h1{font-size:20px;margin:0;color:var(--accent)}
+header .sub{color:var(--sub);font-size:13px;margin-top:2px}
+.hist{display:inline-block;margin-top:6px;font-size:13px}
+.nav{margin-top:8px;font-size:14px}
+.nav a{margin-right:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+ padding:14px 16px;margin-bottom:14px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.rank{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;
+ font-size:13px;font-weight:700;padding:1px 8px}
+.fire{color:#ea580c;font-weight:700;margin-left:6px}
+.title{font-size:17px;font-weight:700;line-height:1.45;margin:8px 0 6px}
+.title a{color:var(--ink)}
+.meta{font-size:13px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px 14px;margin:2px 0 6px}
+.badge{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent);
+ border-radius:6px;padding:0 6px;font-weight:600}
+.reason,.angle{font-size:14.5px;margin:4px 0;color:var(--ink)}
+.reason b,.angle b{color:var(--accent)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;
+ padding:12px 16px;margin-top:6px}
+summary{cursor:pointer;font-weight:700;color:var(--accent)}
+details li{margin:7px 0;font-size:14.5px}
+details li .src{color:var(--sub);font-size:13px}
+a{text-decoration:none;color:var(--accent)}
+.warn{color:#dc2626;font-size:13px}
+footer{color:var(--sub);font-size:12px;text-align:center;margin-top:28px}
+</style></head><body><div class="wrap">
+<header><h1>📡 选题雷达</h1><div class="sub">2026-11-19 期 · AI × 一人公司</div><nav class="nav"><a href="../index.html">← 最新一期</a><a href="../archive.html">🕘 全部历史</a></nav></header>
+<div class="card"><span class="rank">1</span><span class="fire">🔥</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=nVI3CknqgFU">Ignition SCADA 2: Connecting PLCs Using OPC UA</a></div><div class="meta"><span class="badge">⭐ 100</span><span>🗂 YouTube-RealPars（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>Ignition+OPC UA，工控刚需实操</div><div class="angle"><b>✂️ 角度：</b>SCADA连接PLC的OPC UA实战</div></div>
+<div class="card"><span class="rank">2</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=pf5tXJZM1Rw">OpenAI spent $1.2 million hacking Linux... and it was a bargain</a></div><div class="meta"><span class="badge">⭐ 97</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>OpenAI攻破Linux，AI编程爆点</div><div class="angle"><b>✂️ 角度：</b>AI花120万美元挖洞，程序员该慌吗</div></div>
+<div class="card"><span class="rank">3</span><span class="fire">🔥</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV1u3sY63ESj">Agent 经济学之组织大乱斗：一人公司是个伪概念</a></div><div class="meta"><span class="badge">⭐ 96</span><span>🔥 117</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>反主流观点谈一人公司，有故事有争议</div><div class="angle"><b>✂️ 角度：</b>一人公司是伪概念？Agent时代的组织竞争</div></div>
+<div class="card"><span class="rank">4</span><span class="fire">🔥</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV179sr6yEQu">PLC、HMI、SCADA、DCS、MES 各管什么？看一条黑屏后还在灌装的产线</a></div><div class="meta"><span class="badge">⭐ 92</span><span>🔥 143</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>工控架构讲透，结合真实产线案例</div><div class="angle"><b>✂️ 角度：</b>一条产线讲清PLC/SCADA/DCS分工</div></div>
+<div class="card"><span class="rank">5</span>
+<div class="title"><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/">Gemini 4 Neon</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🔥 973</span><span>🗂 HN</span></div><div class="reason"><b>💡 理由：</b>Gemini新模型，AI编程受众刚需</div><div class="angle"><b>✂️ 角度：</b>实测Gemini 4 Neon写代码与agent能力</div></div>
+<div class="card"><span class="rank">6</span>
+<div class="title"><a href="https://github.com/DIYgod/pinky">DIYgod/pinky（⭐2525）</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🔥 2525</span><span>🗂 GitHub（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>MCP让AI操控手机，agent热点</div><div class="angle"><b>✂️ 角度：</b>用MCP agent操控你的手机</div></div>
+<div class="card"><span class="rank">7</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV1assa6kE6H">Windows 11 连你用哪个 AI 编程工具都知道？</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🔥 10</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>Win11监控AI工具，隐私爆点强</div><div class="angle"><b>✂️ 角度：</b>Windows偷偷记录你用哪个AI编程工具</div></div>
+<div class="card"><span class="rank">8</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV1AHsh6dELE">大厂AI平台怎么搭？可交付项目实战拆解｜AI Coding平台｜多租户｜容器隔离｜PRD协作｜企业级落地-码士集团AI大模型</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>AI Coding平台交付实战，技术人可直接借鉴</div><div class="angle"><b>✂️ 角度：</b>拆解企业级AI Coding平台落地难点</div></div>
+<div class="card"><span class="rank">9</span><span class="fire">🔥</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV1s6s869EFo">【2026最新版】一人公司设计项目工作流搭建！目前B站最全的WorkBuddy零基础全套教程！从安装配置到实战，包含所有干货！手把手带你玩转WorkBuddy！</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🔥 217</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>一人公司工作流教程，实用但偏教程向</div><div class="angle"><b>✂️ 角度：</b>WorkBuddy搭建一人公司项目工作流</div></div>
+<div class="card"><span class="rank">10</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=ytmawkPTP24">Why Microsoft couldn’t fix its own servers for 36 hours...</a></div><div class="meta"><span class="badge">⭐ 87</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>微软宕机复盘，技术人有共鸣</div><div class="angle"><b>✂️ 角度：</b>36小时宕机背后的运维教训</div></div>
+<details open><summary>🛢 油田工控精选 · 3 条</summary><ul><li><a href="https://www.bilibili.com/video/BV1ppHg69EVq">油田废气+AI搞出来309亿美元估值？</a> <span class="src">（B站·84）</span></li><li><a href="https://www.bilibili.com/video/BV1Zin76PEq9">TDengine 助力红有软件智能油田数据底座重构：写入性能提升5倍背后的技术路径。</a> <span class="src">（B站·84）</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01">Autonomy Logic OpenPLC Runtime</a> <span class="src">（CISA工控公告·78）</span></li></ul></details>
+<details><summary>快览 · 其余 25 条（按排名排序）</summary><ul><li><b>11.</b> <a href="https://github.com/erkamyaman/rust-anything">erkamyaman/rust-anything（⭐4745）</a> <span class="src">（GitHub·85·🌏需科学上网）</span></li><li><b>12.</b> <a href="https://www.zhihu.com/question/2106672632099758448">怎么看DeepSeek API 联网搜索与抓页改为免费？</a> <span class="src">（知乎热榜·85）</span></li><li><b>13.</b> <a href="https://www.ifanr.com/1690235?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=">刚刚，Gemini 4 Neon 突袭发布，性价比一夜斩杀 Opus 5.5</a> <span class="src">（爱范儿·85）</span></li><li><b>14.</b> <a href="https://www.bilibili.com/video/BV1Lfsa6JE9F">用Agent搭建AI知识库的7个最佳实践</a> <span class="src">（B站·85）</span></li><li><b>15.</b> <a href="https://www.youtube.com/watch?v=1FurWDiK9A4">Did Anthropic just save its $1 trillion IPO?</a> <span class="src">（YouTube-Fireship·85·🌏需科学上网）</span></li><li><b>16.</b> <a href="https://github.com/deepseek-ai/chat-demo">deepseek-ai/chat-demo（⭐5006）</a> <span class="src">（GitHub·82·🌏需科学上网）</span></li><li><b>17.</b> <a href="https://thedataexchange.media/pete-warden-moonshine/">Why AI Wants to Be Local – With Pete Warden (Creator of Moonshine Voice)</a> <span class="src">（HN·80）</span></li><li><b>18.</b> <a href="https://github.com/FrigadeHQ/yogurt">FrigadeHQ/yogurt（⭐2563）</a> <span class="src">（GitHub·80·🌏需科学上网）</span></li><li><b>19.</b> <a href="https://www.appinn.com/nginx-http2-security-vulnerabilities-2026/">Nginx 爆出严重漏洞，HTTP/2 用户注意：可能被远程执行代码｜CVE-2026-123007 评分 8.1分</a> <span class="src">（小众软件·80）</span></li><li><b>20.</b> <a href="https://www.bilibili.com/video/BV1vwsY67EXG">实测谷歌新大模型！我让 AI 自己调 建模｜做个北交大漫游网页 | Carbon | Neon | Hydrogen | Argon</a> <span class="src">（B站·80）</span></li><li><b>21.</b> <a href="https://www.bilibili.com/video/BV1Yssa6kE4G">养鲸新选择——我把鲸鲸装进了自己的软件里：汐语 · Tide</a> <span class="src">（B站·80）</span></li><li><b>22.</b> <a href="https://www.bilibili.com/video/BV1jgst6qEUo">把车间搬进屏幕，数字孪生实施管控！！</a> <span class="src">（B站·80）</span></li><li><b>23.</b> <a href="https://verialabs.com/ruby2shell/">Ruby2ßhell: Pre-authentication RCE on stock Rails</a> <span class="src">（HN·78）</span></li><li><b>24.</b> <a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html">科技爱好者周刊（第 417 期）：不要让 AI 代表你</a> <span class="src">（阮一峰周刊·78）</span></li><li><b>25.</b> <a href="https://www.bilibili.com/video/BV1htsa66EJa">当AI智能体走进酒店管理公司：PluginX 企业落地陪跑实录</a> <span class="src">（B站·78）</span></li><li><b>26.</b> <a href="https://www.appinn.com/mac-secure-enclave-ssh-key/">把 SSH 私钥保存到 Mac 安全芯片中，还能使用 Touch ID 授权</a> <span class="src">（小众软件·76）</span></li><li><b>27.</b> <a href="https://zerodha.tech/blog/high-performance-distributed-blob-storage/">Distributed, high-performance blob storage on SQLite</a> <span class="src">（HN·75）</span></li><li><b>28.</b> <a href="https://www.youtube.com/watch?v=Y-CdNxalkKM">Industrial Sensor Types and How to Pick the Right One</a> <span class="src">（YouTube-RealPars·75·🌏需科学上网）</span></li><li><b>29.</b> <a href="https://www.appinn.com/aiarty-video-enhancer-black-friday/">低清视频怎么变清晰？AI视频超分与4K画质提升实测</a> <span class="src">（小众软件·74）</span></li><li><b>30.</b> <a href="https://www.youtube.com/watch?v=SOwUWPtXQ9I">Jensen Huang just pulled out of Nvidia...</a> <span class="src">（YouTube-Fireship·73·🌏需科学上网）</span></li><li><b>31.</b> <a href="https://www.youtube.com/watch?v=_82Kxcj6ijI">What Is an HMI?</a> <span class="src">（YouTube-RealPars·73·🌏需科学上网）</span></li><li><b>32.</b> <a href="https://kapteko.com/15-million-webservers/">15M web servers on one VM – smoltcp, DPDK, AF_XDP</a> <span class="src">（HN·72）</span></li><li><b>33.</b> <a href="https://foolscap.works/">Show HN: Foolscap – a writing app that reads your book and never writes for you</a> <span class="src">（HN·72）</span></li><li><b>34.</b> <a href="https://www.ifanr.com/1690375?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=">刚刚，Anthropic 敲钟上市！史上最大IPO却让硅谷吵翻了</a> <span class="src">（爱范儿·72）</span></li><li><b>35.</b> <a href="https://www.bilibili.com/video/BV1Yssa6kEit">FolderMarker｜仿 macOS 文件夹标记体验，Windows 文件夹也能一眼分色</a> <span class="src">（B站·72）</span></li></ul></details>
+<footer>选题雷达 · 每日 08:30 自动更新 · GitHub Pages</footer></div></body></html>

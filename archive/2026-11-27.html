@@ -1,0 +1,61 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>选题雷达</title><style>
+:root{--bg:#f6f8fa;--card:#fff;--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--accent:#0f766e}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#111a2b;--ink:#e5e7eb;--sub:#9ca3af;--line:#1f2a44}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:640px;margin:0 auto;padding:16px 14px 48px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);
+ padding:12px 14px;margin:-16px -14px 18px;z-index:9}
+header h1{font-size:20px;margin:0;color:var(--accent)}
+header .sub{color:var(--sub);font-size:13px;margin-top:2px}
+.hist{display:inline-block;margin-top:6px;font-size:13px}
+.nav{margin-top:8px;font-size:14px}
+.nav a{margin-right:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+ padding:14px 16px;margin-bottom:14px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.rank{display:inline-block;background:var(--accent);color:#fff;border-radius:8px;
+ font-size:13px;font-weight:700;padding:1px 8px}
+.fire{color:#ea580c;font-weight:700;margin-left:6px}
+.title{font-size:17px;font-weight:700;line-height:1.45;margin:8px 0 6px}
+.title a{color:var(--ink)}
+.meta{font-size:13px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px 14px;margin:2px 0 6px}
+.badge{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent);
+ border-radius:6px;padding:0 6px;font-weight:600}
+.reason,.angle{font-size:14.5px;margin:4px 0;color:var(--ink)}
+.reason b,.angle b{color:var(--accent)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;
+ padding:12px 16px;margin-top:6px}
+summary{cursor:pointer;font-weight:700;color:var(--accent)}
+details li{margin:7px 0;font-size:14.5px}
+details li .src{color:var(--sub);font-size:13px}
+a{text-decoration:none;color:var(--accent)}
+.warn{color:#dc2626;font-size:13px}
+footer{color:var(--sub);font-size:12px;text-align:center;margin-top:28px}
+</style></head><body><div class="wrap">
+<header><h1>📡 选题雷达</h1><div class="sub">2026-11-27 期 · AI × 一人公司</div><nav class="nav"><a href="../index.html">← 最新一期</a><a href="../archive.html">🕘 全部历史</a></nav></header>
+<div class="card"><span class="rank">1</span><span class="fire">🔥</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=nVI3CknqgFU">Ignition SCADA 2: Connecting PLCs Using OPC UA</a></div><div class="meta"><span class="badge">⭐ 100</span><span>🗂 YouTube-RealPars（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>Ignition SCADA连PLC用OPC UA，精准命中</div><div class="angle"><b>✂️ 角度：</b>SCADA通过OPC UA连PLC实操教程</div></div>
+<div class="card"><span class="rank">2</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=Jatwf_XOncE">17 million lines of AI slop just cracked a 167-year-old math problem...</a></div><div class="meta"><span class="badge">⭐ 97</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>AI生成代码解决数学难题，爆款故事</div><div class="angle"><b>✂️ 角度：</b>1700万行AI代码攻克数学难题的启示</div></div>
+<div class="card"><span class="rank">3</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=jP9yjEDlc4k">Opus just lost to the last company you&#x27;d expect...</a></div><div class="meta"><span class="badge">⭐ 93</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>Opus竞争格局，AI编程受众关注</div><div class="angle"><b>✂️ 角度：</b>Claude Opus被谁击败的竞争解读</div></div>
+<div class="card"><span class="rank">4</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=rMaMe32qQkA">If you’ve deployed anything since 2015, I have bad news...</a></div><div class="meta"><span class="badge">⭐ 91</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>部署踩坑话题，独立开发者共鸣</div><div class="angle"><b>✂️ 角度：</b>2015年后部署方式的技术债</div></div>
+<div class="card"><span class="rank">5</span>
+<div class="title"><a href="https://github.com/sybil-solutions/inference-optimisation-skill">sybil-solutions/inference-optimisation-skill（⭐2842）</a></div><div class="meta"><span class="badge">⭐ 90</span><span>🔥 2842</span><span>🗂 GitHub（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>Agent技能优化LLM推理，直接可用</div><div class="angle"><b>✂️ 角度：</b>Agent技能：本地LLM推理提速实战</div></div>
+<div class="card"><span class="rank">6</span>
+<div class="title"><a href="https://www.ifanr.com/1695671?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign">Claude Code 灵魂人物，开始反思 Vibe Coding 的未来了</a></div><div class="meta"><span class="badge">⭐ 90</span><span>🗂 爱范儿</span></div><div class="reason"><b>💡 理由：</b>Claude Code核心人物反思Vibe Coding</div><div class="angle"><b>✂️ 角度：</b>Vibe Coding退潮后独立开发者该怎么写代码</div></div>
+<div class="card"><span class="rank">7</span>
+<div class="title"><a href="https://www.bilibili.com/video/BV1Pt1Wz3EUw">【开源】零公网IP！如何用公司浏览器远程遥控家里本地AI？Hermes &amp;amp; DeepSeek Harness通用方案（附大厂横评）</a></div><div class="meta"><span class="badge">⭐ 90</span><span>🔥 1</span><span>🗂 B站</span></div><div class="reason"><b>💡 理由：</b>零公网IP远程遥控本地Agent，技术人马上能用</div><div class="angle"><b>✂️ 角度：</b>不买云服务器，浏览器遥控家里本地Agent干活</div></div>
+<div class="card"><span class="rank">8</span>
+<div class="title"><a href="https://github.com/CzzzzzzJ/mdldm-maitian">CzzzzzzJ/mdldm-maitian（⭐2306）</a></div><div class="meta"><span class="badge">⭐ 89</span><span>🔥 2306</span><span>🗂 GitHub（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>自媒体多平台中控，一人公司刚需</div><div class="angle"><b>✂️ 角度：</b>麦田：一人公司多平台发布与数据中控</div></div>
+<div class="card"><span class="rank">9</span>
+<div class="title"><a href="https://www.youtube.com/watch?v=Qxor6jpfSiU">The only software that didn’t break this week...</a></div><div class="meta"><span class="badge">⭐ 89</span><span>🗂 YouTube-Fireship（🌏需科学上网）</span></div><div class="reason"><b>💡 理由：</b>多AI编程agent同IDE，工作流相关</div><div class="angle"><b>✂️ 角度：</b>多agent并行IDE工作流实测</div></div>
+<div class="card"><span class="rank">10</span>
+<div class="title"><a href="https://techstackups.com/articles/google-workspace-ai-agents-mcp/">Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can&#x27;t Send Email</a></div><div class="meta"><span class="badge">⭐ 88</span><span>🔥 323</span><span>🗂 HN</span></div><div class="reason"><b>💡 理由：</b>MCP+Agent，AI工作流核心话题</div><div class="angle"><b>✂️ 角度：</b>Google MCP服务器：Agent工作流的新基建与坑</div></div>
+<details open><summary>🛢 油田工控精选 · 3 条</summary><ul><li><a href="https://www.bilibili.com/video/BV1ygsi6BEnx">河南油田采油二厂杜坡油田单井上使用的由山东创新石油技术有限公司生产的互联网永磁智能抽油机。</a> <span class="src">（B站·85）</span></li><li><a href="https://www.bilibili.com/video/BV1ANsF6TEqi">Web 版 SCADA 组态大屏，铝材厂随时随地看生产</a> <span class="src">（B站·80）</span></li><li><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02">Schneider Electric EcoStruxure Power Build Rapsody software</a> <span class="src">（CISA工控公告·78）</span></li></ul></details>
+<details><summary>快览 · 其余 25 条（按排名排序）</summary><ul><li><b>11.</b> <a href="https://www.appinn.com/modern-web-guidance/">别让 AI 用过时的技术写网页，Chrome 官方推出 Skills：Modern Web Guidance</a> <span class="src">（小众软件·88）</span></li><li><b>12.</b> <a href="https://www.bilibili.com/video/BV1FJ1sziEX6">【硬核拆解】8个月狂卖25万台、号称年入1亿美金？扒开这块$99磁吸AI录音卡的暴利底账与翻车暗雷！</a> <span class="src">（B站·88）</span></li><li><b>13.</b> <a href="https://github.com/pierridotite/mobile-agent-testers">pierridotite/mobile-agent-testers（⭐2550）</a> <span class="src">（GitHub·87·🌏需科学上网）</span></li><li><b>14.</b> <a href="https://www.youtube.com/watch?v=_6fD0tFMtV0">Sensor vs Transducer vs Transmitter</a> <span class="src">（YouTube-RealPars·87·🌏需科学上网）</span></li><li><b>15.</b> <a href="https://janlukas.blog/posts/ai-self-hosting">AI made self-hosting fun again</a> <span class="src">（HN·86）</span></li><li><b>16.</b> <a href="https://www.bilibili.com/video/BV14t1Wz3ET3">谷歌Gemini能替代Claude Code吗？无稿录屏实测说真话</a> <span class="src">（B站·86）</span></li><li><b>17.</b> <a href="https://www.bilibili.com/video/BV1JnyzzMEMn">不推翻旧系统！现有设备怎么平滑升级3D监控</a> <span class="src">（B站·86）</span></li><li><b>18.</b> <a href="https://github.com/iamajmeena/neonclipping">iamajmeena/neonclipping（⭐2809）</a> <span class="src">（GitHub·85·🌏需科学上网）</span></li><li><b>19.</b> <a href="https://www.youtube.com/watch?v=Y-CdNxalkKM">Industrial Sensor Types and How to Pick the Right One</a> <span class="src">（YouTube-RealPars·85·🌏需科学上网）</span></li><li><b>20.</b> <a href="https://github.com/EL4CTEO/fast-anything">EL4CTEO/fast-anything（⭐4336）</a> <span class="src">（GitHub·84·🌏需科学上网）</span></li><li><b>21.</b> <a href="https://www.bilibili.com/video/BV1MH1WzLEDM">个人所得税 9 大类应税收入详解，配套计算公式，创业老板自学财税</a> <span class="src">（B站·84）</span></li><li><b>22.</b> <a href="https://construct22.com/">The group chat where your AI talks behind your back</a> <span class="src">（HN·82）</span></li><li><b>23.</b> <a href="https://www.bilibili.com/video/BV1WwyZzAEBT">[实践] 知识库系列 06｜知识库增长，采集互联网知识</a> <span class="src">（B站·82）</span></li><li><b>24.</b> <a href="https://commandcode.ai/moat">Moat: OpenRouter replacement</a> <span class="src">（HN·80）</span></li><li><b>25.</b> <a href="https://www.zhihu.com/question/2109594972236112069">知乎与DeepSeek开展内容合作，AI回答可溯源引用知乎内容并跳转原文，这将带来哪些体验变化？</a> <span class="src">（知乎热榜·80）</span></li><li><b>26.</b> <a href="https://sspai.com/post/116773">App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具</a> <span class="src">（少数派·80）</span></li><li><b>27.</b> <a href="https://newsa.html5.qq.com/v1/share-video?vid=6452920524010210734">学材料化学却做出爆款小游戏?大学生靠ai辅助编程把想法变成现实...</a> <span class="src">（搜狗·80）</span></li><li><b>28.</b> <a href="https://devnull.land/amd-specific-llama-cpp">AMD-specific fork of llama.cpp</a> <span class="src">（HN·78）</span></li><li><b>29.</b> <a href="https://www.zhihu.com/question/2109411707877695723">如何评价DeepSeek网页和App端开始展示消耗额度？</a> <span class="src">（知乎热榜·78）</span></li><li><b>30.</b> <a href="https://sspai.com/post/119310">App+1｜Yab：开源、AI 友好的双内核浏览器，给舍不得 Arc 的你</a> <span class="src">（少数派·78）</span></li><li><b>31.</b> <a href="https://github.com/erkamyaman/rust-anything">erkamyaman/rust-anything（⭐10450）</a> <span class="src">（GitHub·76·🌏需科学上网）</span></li><li><b>32.</b> <a href="https://sspai.com/post/117510">我用AI做了一张两千年的中国历史地图</a> <span class="src">（少数派·76）</span></li><li><b>33.</b> <a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01">AutomationDirect C-More EA9 Programming Software</a> <span class="src">（CISA工控公告·76）</span></li><li><b>34.</b> <a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03">Danfoss AK-SM 8xxA Series</a> <span class="src">（CISA工控公告·76）</span></li><li><b>35.</b> <a href="https://www.bilibili.com/video/BV1RGsU6REnH">睿创燧石SilentW-UM6Pro迷你红外全景雷达，360°全景感知，全天候智能守护</a> <span class="src">（B站·76）</span></li></ul></details>
+<footer>选题雷达 · 每日 08:30 自动更新 · GitHub Pages</footer></div></body></html>
